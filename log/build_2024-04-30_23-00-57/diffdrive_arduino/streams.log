@@ -1,0 +1,37 @@
+[0.046s] Invoking command in '/home/madi/robolab/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/madi/robolab/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/madi/robolab/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/madi/robolab/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/madi/robolab/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/madi/robolab/install/diffdrive_arduino
+[0.240s] -- The C compiler identification is GNU 11.4.0
+[0.445s] -- The CXX compiler identification is GNU 11.4.0
+[0.482s] -- Detecting C compiler ABI info
+[0.779s] -- Detecting C compiler ABI info - done
+[0.820s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.822s] -- Detecting C compile features
+[0.824s] -- Detecting C compile features - done
+[0.838s] -- Detecting CXX compiler ABI info
+[1.155s] -- Detecting CXX compiler ABI info - done
+[1.187s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.188s] -- Detecting CXX compile features
+[1.190s] -- Detecting CXX compile features - done
+[1.196s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.648s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.847s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.914s] -- Found serial: 1.2.1 (/home/madi/robolab/install/serial/share/serial/cmake)
+[1.974s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[1.975s]   By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this
+[1.975s]   project has asked CMake to find a package configuration file provided by
+[1.975s]   "hardware_interface", but CMake did not find one.
+[1.976s] 
+[1.976s]   Could not find a package configuration file provided by
+[1.977s]   "hardware_interface" with any of the following names:
+[1.977s] 
+[1.977s]     hardware_interfaceConfig.cmake
+[1.977s]     hardware_interface-config.cmake
+[1.978s] 
+[1.978s]   Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or
+[1.978s]   set "hardware_interface_DIR" to a directory containing one of the above
+[1.979s]   files.  If "hardware_interface" provides a separate development package or
+[1.979s]   SDK, be sure it has been installed.
+[1.979s] 
+[1.980s] [0m
+[1.988s] -- Configuring incomplete, errors occurred!
+[1.989s] See also "/home/madi/robolab/build/diffdrive_arduino/CMakeFiles/CMakeOutput.log".
+[2.002s] Invoked command in '/home/madi/robolab/build/diffdrive_arduino' returned '1': AMENT_PREFIX_PATH=/home/madi/robolab/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/madi/robolab/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/madi/robolab/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/madi/robolab/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/madi/robolab/install/diffdrive_arduino

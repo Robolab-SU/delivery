@@ -1,0 +1,3 @@
+Invoking command in '/home/madi/robolab/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/madi/robolab/src/serial_motor_demo/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/madi/robolab/install/serial_motor_demo_msgs
+Invoked command in '/home/madi/robolab/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/madi/robolab/src/serial_motor_demo/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/madi/robolab/install/serial_motor_demo_msgs
+Invoking command in '/home/madi/robolab/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/serial_motor_demo_msgs -- -j2 -l2

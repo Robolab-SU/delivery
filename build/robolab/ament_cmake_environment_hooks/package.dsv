@@ -1,0 +1,4 @@
+source;share/robolab/local_setup.bash
+source;share/robolab/local_setup.dsv
+source;share/robolab/local_setup.sh
+source;share/robolab/local_setup.zsh

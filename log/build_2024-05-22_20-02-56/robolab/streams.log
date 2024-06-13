@@ -1,0 +1,60 @@
+[0.037s] Invoking command in '/home/madi/robolab/build/robolab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/robolab -- -j4 -l4
+[0.112s] Invoked command in '/home/madi/robolab/build/robolab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/robolab -- -j4 -l4
+[0.241s] Invoking command in '/home/madi/robolab/build/robolab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/robolab
+[0.256s] -- Install configuration: ""
+[0.256s] -- Execute custom install script
+[0.257s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/angle.yaml
+[0.258s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/ball_tracker_params_robot.yaml
+[0.258s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/ball_tracker_params_sim.yaml
+[0.259s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/drive_bot.rviz
+[0.259s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/empty.yaml
+[0.260s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/gaz_ros2_ctl_use_sim.yaml
+[0.260s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/gazebo_params.yaml
+[0.261s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/joystick.yaml
+[0.261s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/main.rviz
+[0.262s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/map.rviz
+[0.262s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/mapper_params_online_async.yaml
+[0.263s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/my_controllers.yaml
+[0.263s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/nav2_params.yaml
+[0.264s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/twist_mux.yaml
+[0.264s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/config/view_bot.rviz
+[0.265s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/description/camera.xacro
+[0.265s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/description/depth_camera.xacro
+[0.268s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/description/face.xacro
+[0.273s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/description/gazebo_control.xacro
+[0.273s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/description/inertial_macros.xacro
+[0.274s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/description/lidar.xacro
+[0.275s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/description/robot.urdf.xacro
+[0.276s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/description/robot_core.xacro
+[0.276s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/description/ros2_control.xacro
+[0.277s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/launch/angle_limit.launch.py
+[0.278s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/launch/angle_limit.launch.yaml
+[0.279s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/launch/ball_tracker.launch.py
+[0.279s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/launch/camera.launch.py
+[0.280s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/launch/joystick.launch.py
+[0.281s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/launch/launch_robot.launch.py
+[0.281s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/launch/launch_sim.launch.py
+[0.281s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/launch/localization_launch.py
+[0.282s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/launch/mybot_laser_angular_bound_filter.cpp
+[0.282s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/launch/navigation_launch.py
+[0.282s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/launch/online_async_launch.py
+[0.283s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/launch/rplidar.launch.py
+[0.283s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/launch/rsp.launch.py
+[0.284s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/worlds/empty.world
+[0.284s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/worlds/obstacles.world
+[0.286s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/ament_index/resource_index/package_run_dependencies/robolab
+[0.286s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/ament_index/resource_index/parent_prefix_path/robolab
+[0.287s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/environment/ament_prefix_path.sh
+[0.287s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/environment/ament_prefix_path.dsv
+[0.288s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/environment/path.sh
+[0.288s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/environment/path.dsv
+[0.289s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/local_setup.bash
+[0.289s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/local_setup.sh
+[0.289s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/local_setup.zsh
+[0.297s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/local_setup.dsv
+[0.297s] -- Symlinking: /home/madi/robolab/install/robolab/share/robolab/package.dsv
+[0.326s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/ament_index/resource_index/packages/robolab
+[0.326s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/cmake/robolabConfig.cmake
+[0.326s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/cmake/robolabConfig-version.cmake
+[0.326s] -- Up-to-date symlink: /home/madi/robolab/install/robolab/share/robolab/package.xml
+[0.328s] Invoked command in '/home/madi/robolab/build/robolab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/robolab

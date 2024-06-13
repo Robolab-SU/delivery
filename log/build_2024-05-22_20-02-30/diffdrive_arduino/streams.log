@@ -1,0 +1,22 @@
+[0.021s] Invoking command in '/home/madi/robolab/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/madi/robolab/install/serial:/home/madi/robolab/install/serial_motor_demo_msgs:/home/madi/robolab/install/robolab:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/diffdrive_arduino -- -j4 -l4
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target fake_robot[0m
+[0.132s] [ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[0.157s] [ 28%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[0.584s] In file included from [01m[K/home/madi/robolab/src/diffdrive_arduino/src/diffdrive_arduino.cpp:1[m[K:
+[0.584s] [01m[K/home/madi/robolab/src/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino.h:7:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+[0.584s]     7 | #include [01;31m[K"hardware_interface/base_interface.hpp"[m[K
+[0.584s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.584s] compilation terminated.
+[0.585s] In file included from [01m[K/home/madi/robolab/src/diffdrive_arduino/src/fake_robot.cpp:1[m[K:
+[0.585s] [01m[K/home/madi/robolab/src/diffdrive_arduino/include/diffdrive_arduino/fake_robot.h:7:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+[0.585s]     7 | #include [01;31m[K"hardware_interface/base_interface.hpp"[m[K
+[0.585s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.585s] compilation terminated.
+[0.588s] gmake[2]: *** [CMakeFiles/fake_robot.dir/build.make:76: CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o] Error 1
+[0.588s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fake_robot.dir/all] Error 2
+[0.588s] gmake[1]: *** Waiting for unfinished jobs....
+[0.589s] gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o] Error 1
+[0.589s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+[0.589s] gmake: *** [Makefile:146: all] Error 2
+[0.592s] Invoked command in '/home/madi/robolab/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=/home/madi/robolab/install/serial:/home/madi/robolab/install/serial_motor_demo_msgs:/home/madi/robolab/install/robolab:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/diffdrive_arduino -- -j4 -l4

@@ -1,0 +1,6 @@
+Invoking command in '/home/madi/robolab/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/madi/robolab/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/madi/robolab/install/serial
+Invoked command in '/home/madi/robolab/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/madi/robolab/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/madi/robolab/install/serial
+Invoking command in '/home/madi/robolab/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/serial -- -j2 -l2
+Invoked command in '/home/madi/robolab/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/serial -- -j2 -l2
+Invoking command in '/home/madi/robolab/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/serial
+Invoked command in '/home/madi/robolab/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/serial

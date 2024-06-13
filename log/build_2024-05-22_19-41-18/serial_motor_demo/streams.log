@@ -1,0 +1,29 @@
+[1.002s] Invoking command in '/home/madi/robolab/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/madi/robolab/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/madi/robolab/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/madi/robolab/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/madi/robolab/build/serial_motor_demo/prefix_override:/home/madi/robolab/install/serial_motor_demo/lib/python3.10/site-packages:/home/madi/robolab/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/madi/robolab/build/serial_motor_demo/build --no-deps symlink_data
+[1.278s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.278s]   warnings.warn(
+[1.328s] running develop
+[1.335s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.335s]   warnings.warn(
+[1.537s] running egg_info
+[1.537s] creating serial_motor_demo.egg-info
+[1.537s] writing serial_motor_demo.egg-info/PKG-INFO
+[1.537s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[1.537s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[1.537s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[1.537s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[1.537s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[1.547s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[1.547s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[1.550s] running build_ext
+[1.550s] Creating /home/madi/robolab/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[1.551s] Installing driver script to /home/madi/robolab/install/serial_motor_demo/lib/serial_motor_demo
+[1.551s] Installing gui script to /home/madi/robolab/install/serial_motor_demo/lib/serial_motor_demo
+[1.551s] 
+[1.551s] Installed /home/madi/robolab/build/serial_motor_demo
+[1.551s] running symlink_data
+[1.551s] creating /home/madi/robolab/install/serial_motor_demo/share/ament_index
+[1.552s] creating /home/madi/robolab/install/serial_motor_demo/share/ament_index/resource_index
+[1.552s] creating /home/madi/robolab/install/serial_motor_demo/share/ament_index/resource_index/packages
+[1.552s] symbolically linking /home/madi/robolab/build/serial_motor_demo/resource/serial_motor_demo -> /home/madi/robolab/install/serial_motor_demo/share/ament_index/resource_index/packages
+[1.552s] symbolically linking /home/madi/robolab/build/serial_motor_demo/package.xml -> /home/madi/robolab/install/serial_motor_demo/share/serial_motor_demo
+[1.582s] Invoked command in '/home/madi/robolab/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/madi/robolab/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/madi/robolab/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/madi/robolab/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/madi/robolab/build/serial_motor_demo/prefix_override:/home/madi/robolab/install/serial_motor_demo/lib/python3.10/site-packages:/home/madi/robolab/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/madi/robolab/build/serial_motor_demo/build --no-deps symlink_data

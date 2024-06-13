@@ -1,0 +1,81 @@
+[0.057s] Invoking command in '/home/madi/robolab/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/madi/robolab/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/madi/robolab/install/serial
+[0.753s] -- The C compiler identification is GNU 11.4.0
+[1.164s] -- The CXX compiler identification is GNU 11.4.0
+[1.196s] -- Detecting C compiler ABI info
+[1.464s] -- Detecting C compiler ABI info - done
+[1.498s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.510s] -- Detecting C compile features
+[1.514s] -- Detecting C compile features - done
+[1.529s] -- Detecting CXX compiler ABI info
+[1.817s] -- Detecting CXX compiler ABI info - done
+[1.845s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.846s] -- Detecting CXX compile features
+[1.851s] -- Detecting CXX compile features - done
+[1.905s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.486s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.775s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.930s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.991s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[3.011s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.023s] -- Looking for pthread.h
+[3.398s] -- Looking for pthread.h - found
+[3.399s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.729s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.733s] -- Found Threads: TRUE  
+[4.048s] -- Configuring done
+[4.092s] -- Generating done
+[4.098s] -- Build files have been written to: /home/madi/robolab/build/serial
+[4.117s] Invoked command in '/home/madi/robolab/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/madi/robolab/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/madi/robolab/install/serial
+[4.122s] Invoking command in '/home/madi/robolab/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/serial -- -j2 -l2
+[4.352s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[4.395s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.028s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[11.215s] [ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[14.067s] [ 35%] [32m[1mLinking CXX static library libserial.a[0m
+[14.305s] [ 35%] Built target serial
+[14.459s] [ 42%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[21.093s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[21.376s] [ 50%] Built target gtest_main
+[21.636s] [ 57%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[23.958s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[24.566s] [ 64%] Built target serial_example
+[26.030s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[26.267s] [ 71%] Built target gtest
+[26.356s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[29.399s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[29.399s]                  from [01m[K/home/madi/robolab/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[29.400s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[29.400s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[29.401s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[30.098s] [ 85%] [32m[1mLinking CXX executable serial-test[0m
+[30.512s] [ 85%] Built target serial-test
+[30.579s] [ 92%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[33.812s] [100%] [32m[1mLinking CXX executable serial-test-timer[0m
+[34.224s] [100%] Built target serial-test-timer
+[34.259s] Invoked command in '/home/madi/robolab/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/serial -- -j2 -l2
+[34.448s] Invoking command in '/home/madi/robolab/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/serial
+[34.473s] -- Install configuration: ""
+[34.475s] -- Execute custom install script
+[34.477s] -- Symlinking: /home/madi/robolab/install/serial/lib/libserial.a
+[34.516s] -- Symlinking: /home/madi/robolab/install/serial/include/serial/serial.h
+[34.555s] -- Symlinking: /home/madi/robolab/install/serial/include/serial/v8stdint.h
+[34.591s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/environment/library_path.sh
+[34.634s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/environment/library_path.dsv
+[34.667s] -- Symlinking: /home/madi/robolab/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[34.691s] -- Symlinking: /home/madi/robolab/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[34.716s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/environment/ament_prefix_path.sh
+[34.741s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/environment/ament_prefix_path.dsv
+[34.765s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/environment/path.sh
+[34.789s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/environment/path.dsv
+[34.815s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/local_setup.bash
+[34.848s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/local_setup.sh
+[34.878s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/local_setup.zsh
+[34.902s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/local_setup.dsv
+[34.926s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/package.dsv
+[34.951s] -- Symlinking: /home/madi/robolab/install/serial/share/ament_index/resource_index/packages/serial
+[34.975s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.016s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[35.042s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/cmake/serialConfig.cmake
+[35.067s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/cmake/serialConfig-version.cmake
+[35.095s] -- Symlinking: /home/madi/robolab/install/serial/share/serial/package.xml
+[35.126s] Invoked command in '/home/madi/robolab/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/serial

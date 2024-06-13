@@ -1,0 +1,326 @@
+[0.120s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.120s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ea4310ce320>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ea43123a950>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ea43123a950>>, mixin_verb=('build',))
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.300s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/madi/robolab'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/robolab) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/robolab) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/robolab) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/robolab) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/robolab) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/robolab) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/robolab) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/robolab) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/robolab) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robolab' with type 'ros.ament_cmake' and name 'robolab'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.354s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/madi/robolab/install
+[0.356s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 389 installed packages in /opt/ros/humble
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'robolab' build argument 'cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'robolab' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'robolab' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'robolab' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'robolab' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'robolab' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'robolab' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'robolab' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'robolab' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'robolab' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/madi/robolab/build/robolab', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/madi/robolab/install/robolab', 'merge_install': False, 'path': '/home/madi/robolab/src/robolab', 'symlink_install': True, 'test_result_base': None}
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/madi/robolab/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/madi/robolab/install/serial', 'merge_install': False, 'path': '/home/madi/robolab/src/serial', 'symlink_install': True, 'test_result_base': None}
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.405s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/madi/robolab/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/madi/robolab/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/madi/robolab/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.405s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/madi/robolab/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/madi/robolab/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/madi/robolab/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/madi/robolab/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/madi/robolab/install/serial_motor_demo', 'merge_install': False, 'path': '/home/madi/robolab/src/serial_motor_demo/serial_motor_demo', 'symlink_install': True, 'test_result_base': None}
+[0.406s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.411s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/madi/robolab/src/serial' with build type 'ament_cmake'
+[0.411s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/madi/robolab/src/serial'
+[0.413s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.417s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/madi/robolab/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[0.417s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/madi/robolab/src/serial_motor_demo/serial_motor_demo_msgs'
+[0.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.426s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/madi/robolab/src/robolab' with build type 'ament_cmake'
+[0.427s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/madi/robolab/src/robolab'
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/madi/robolab/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/serial -- -j4 -l4
+[0.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/madi/robolab/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/serial_motor_demo_msgs -- -j4 -l4
+[0.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/madi/robolab/build/robolab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/robolab -- -j4 -l4
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/madi/robolab/build/robolab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/robolab -- -j4 -l4
+[0.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/madi/robolab/build/robolab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/robolab
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/madi/robolab/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/serial -- -j4 -l4
+[0.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robolab)
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/robolab' for CMake module files
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/robolab' for CMake config files
+[0.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('robolab', 'cmake_prefix_path')
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madi/robolab/install/robolab/share/robolab/hook/cmake_prefix_path.ps1'
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/madi/robolab/install/robolab/share/robolab/hook/cmake_prefix_path.dsv'
+[0.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/madi/robolab/build/robolab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/robolab
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madi/robolab/install/robolab/share/robolab/hook/cmake_prefix_path.sh'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/robolab/bin'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/robolab/lib/pkgconfig/robolab.pc'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/robolab/lib/python3.10/site-packages'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/robolab/bin'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/robolab/share/robolab/package.ps1'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/madi/robolab/install/robolab/share/robolab/package.dsv'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/robolab/share/robolab/package.sh'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/robolab/share/robolab/package.bash'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/robolab/share/robolab/package.zsh'
+[0.732s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/madi/robolab/install/robolab/share/colcon-core/packages/robolab)
+[0.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robolab)
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/robolab' for CMake module files
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/robolab' for CMake config files
+[0.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('robolab', 'cmake_prefix_path')
+[0.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madi/robolab/install/robolab/share/robolab/hook/cmake_prefix_path.ps1'
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/madi/robolab/install/robolab/share/robolab/hook/cmake_prefix_path.dsv'
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madi/robolab/install/robolab/share/robolab/hook/cmake_prefix_path.sh'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/robolab/bin'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/robolab/lib/pkgconfig/robolab.pc'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/robolab/lib/python3.10/site-packages'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/robolab/bin'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/robolab/share/robolab/package.ps1'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/madi/robolab/install/robolab/share/robolab/package.dsv'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/robolab/share/robolab/package.sh'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/robolab/share/robolab/package.bash'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/robolab/share/robolab/package.zsh'
+[0.789s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/madi/robolab/install/robolab/share/colcon-core/packages/robolab)
+[0.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/madi/robolab/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/serial
+[0.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[0.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/madi/robolab/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/serial
+[0.834s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial' for CMake module files
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial' for CMake config files
+[0.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madi/robolab/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/madi/robolab/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madi/robolab/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial/lib'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial/bin'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial/lib/pkgconfig/serial.pc'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial/lib/python3.10/site-packages'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial/bin'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/serial/share/serial/package.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/madi/robolab/install/serial/share/serial/package.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/serial/share/serial/package.sh'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/serial/share/serial/package.bash'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/serial/share/serial/package.zsh'
+[0.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/madi/robolab/install/serial/share/colcon-core/packages/serial)
+[0.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial' for CMake module files
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial' for CMake config files
+[0.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[0.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madi/robolab/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[0.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/madi/robolab/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madi/robolab/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial/lib'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial/bin'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial/lib/pkgconfig/serial.pc'
+[0.921s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial/lib/python3.10/site-packages'
+[0.921s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial/bin'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/serial/share/serial/package.ps1'
+[0.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/madi/robolab/install/serial/share/serial/package.dsv'
+[0.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/serial/share/serial/package.sh'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/serial/share/serial/package.bash'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/serial/share/serial/package.zsh'
+[0.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/madi/robolab/install/serial/share/colcon-core/packages/serial)
+[0.931s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/madi/robolab/src/diffdrive_arduino' with build type 'ament_cmake'
+[0.931s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/madi/robolab/src/diffdrive_arduino'
+[0.931s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.931s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/madi/robolab/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/madi/robolab/install/serial:/home/madi/robolab/install/serial_motor_demo_msgs:/home/madi/robolab/install/robolab:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/diffdrive_arduino -- -j4 -l4
+[1.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/madi/robolab/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/serial_motor_demo_msgs -- -j4 -l4
+[1.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/madi/robolab/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/serial_motor_demo_msgs
+[1.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/madi/robolab/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=/home/madi/robolab/install/serial:/home/madi/robolab/install/serial_motor_demo_msgs:/home/madi/robolab/install/robolab:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/diffdrive_arduino -- -j4 -l4
+[1.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial_motor_demo_msgs' for CMake module files
+[1.520s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial_motor_demo_msgs' for CMake config files
+[1.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/madi/robolab/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/serial_motor_demo_msgs
+[1.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madi/robolab/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/madi/robolab/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madi/robolab/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial_motor_demo_msgs/lib'
+[1.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[1.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madi/robolab/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/madi/robolab/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/madi/robolab/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial_motor_demo_msgs/bin'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/serial_motor_demo_msgs/bin'
+[1.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[1.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/madi/robolab/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[1.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/madi/robolab/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[1.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[1.544s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/diffdrive_arduino' for CMake module files
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/diffdrive_arduino' for CMake config files
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/diffdrive_arduino/bin'
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/diffdrive_arduino/lib/python3.10/site-packages'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/madi/robolab/install/diffdrive_arduino/bin'
+[1.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[1.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/madi/robolab/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[1.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[1.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[1.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/madi/robolab/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[1.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/madi/robolab/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[1.714s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.715s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.722s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.722s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.722s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.995s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.996s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/madi/robolab/install/local_setup.ps1'
+[1.997s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/madi/robolab/install/_local_setup_util_ps1.py'
+[1.998s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/madi/robolab/install/setup.ps1'
+[1.999s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/madi/robolab/install/local_setup.sh'
+[1.999s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/madi/robolab/install/_local_setup_util_sh.py'
+[2.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/madi/robolab/install/setup.sh'
+[2.001s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/madi/robolab/install/local_setup.bash'
+[2.001s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/madi/robolab/install/setup.bash'
+[2.003s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/madi/robolab/install/local_setup.zsh'
+[2.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/madi/robolab/install/setup.zsh'

@@ -1,0 +1,4 @@
+Invoking command in '/home/madi/robolab/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/serial -- -j4 -l4
+Invoked command in '/home/madi/robolab/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/serial -- -j4 -l4
+Invoking command in '/home/madi/robolab/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/serial
+Invoked command in '/home/madi/robolab/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/madi/robolab/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/serial

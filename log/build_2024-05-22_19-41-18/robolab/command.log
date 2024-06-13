@@ -1,0 +1,4 @@
+Invoking command in '/home/madi/robolab/build/robolab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/robolab -- -j4 -l4
+Invoked command in '/home/madi/robolab/build/robolab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/madi/robolab/build/robolab -- -j4 -l4
+Invoking command in '/home/madi/robolab/build/robolab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/robolab
+Invoked command in '/home/madi/robolab/build/robolab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/madi/robolab/build/robolab
